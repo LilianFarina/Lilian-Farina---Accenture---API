@@ -8,7 +8,9 @@ A automação é construída em Python, utilizando BDD, padrão de projeto Page 
 
 📚 Funcionalidades Automatizadas
 
-Este projeto executa todo o fluxo completo em uma única execução, como exigido no desafio:
+Este projeto executa todo o fluxo completo em uma única execução:
+
+
 
 Criar um usuário
 Endpoint: POST /Account/v1/User
