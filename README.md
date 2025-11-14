@@ -4,7 +4,7 @@ DemoQA API Automation — Python + BDD + Page Object
 
 Este projeto automatiza o fluxo de criação de usuário, autenticação, listagem de livros e reserva de dois livros utilizando as APIs públicas do DemoQA.
 
-A automação é construída em Python, utilizando Behave (BDD), padrão de projeto Page Object aplicado para APIs, testes automatizados contínuos via GitHub Actions e arquitetura limpa.
+A automação é construída em Python, utilizando BDD, padrão de projeto Page Object aplicado para APIs, testes automatizados contínuos via GitHub Actions e arquitetura limpa.
 
 📚 Funcionalidades Automatizadas
 
