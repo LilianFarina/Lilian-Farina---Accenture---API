@@ -64,6 +64,8 @@ Python-dotenv
 GitHub Actions (CI)
 
 🧪 Como Executar Localmente
+
+
 1️⃣ Criar ambiente virtual
 python -m venv .venv
 source .venv/bin/activate   # Linux/Mac
