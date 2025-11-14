@@ -133,6 +133,28 @@ Isso gera reutilização, fácil manutenção e desacoplamento.
 
 Projeto desenvolvido como parte de desafio técnico envolvendo API + BDD + Python + Padrões de Projeto.
 
+Resumo do fluxo do teste:
+
+Criar usuário — POST /Account/v1/User. 
+demoqa.com
+
+Gerar token — POST /Account/v1/GenerateToken. 
+demoqa.com
+
+Verificar autorização — POST /Account/v1/Authorized (ou GET conforme doc). 
+demoqa.com
+
+Listar livros — GET /BookStore/v1/Books. 
+demoqa.com
+
+Reservar / adicionar livros ao usuário — POST /BookStore/v1/Books com userId + collectionOfIsbns. 
+demoqa.com
+
+Ler detalhes do usuário — GET /Account/v1/User/{userId} e confirmar livros associados. 
+demoqa.com
+
+Observação: verificar no Swagger os nomes exatos dos campos (userId / userID, isbn, formato do token, headers exigidos). O Swagger oficial: https://demoqa.com/swagger/
+
 
 especificação da API do DemoQA, que está descrita no Swagger/OpenAPI, para modelar os endpoints no projeto.
 
