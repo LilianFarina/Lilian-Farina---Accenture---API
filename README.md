@@ -161,3 +161,13 @@ especificação da API do DemoQA, que está descrita no Swagger/OpenAPI, para mo
 Essa documentação define os recursos: /Account/v1/User, /Account/v1/GenerateToken, /Account/v1/Authorized, /BookStore/v1/Books, /Account/v1/User/{userId}....
 
  “Swagger UI”  disponibilizado para  API de BookStore.
+
+Pré-requisitos
+
+Acesso à internet (p.ex. para https://demoqa.com)
+
+curl ou Postman para testes manuais
+
+Python 3.11+ (recomendado) e pip para execução automatizada
+
+Dependências (ex.: requests, behave, python-dotenv) — see requirements.txt
