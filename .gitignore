@@ -1,1 +1,67 @@
+# =====================
+# Arquivos de Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pkl
+*.log
+
+# Virtualenv
+.venv/
+venv/
+env/
+ENV/
+
+# Diretórios de build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Configurações locais
+*.env
+.env*
+*.ini
+*.cfg
+
+# Cache do pytest / behave
+.cache/
+.behave/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*~
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Log de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Relatórios
+reports/
+test-output/
+
+# Arquivos do Selenium (se você usar)
+chromedriver
+geckodriver
+selenium-screenshots/
+
+# Arquivos JSON ou configs gerados automaticamente
+*.json
+
+# Arquivo de zip ou exportações
+*.zip
 
