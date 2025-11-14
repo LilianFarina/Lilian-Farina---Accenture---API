@@ -132,3 +132,10 @@ Isso gera reutilização, fácil manutenção e desacoplamento.
 
 
 Projeto desenvolvido como parte de desafio técnico envolvendo API + BDD + Python + Padrões de Projeto.
+
+
+especificação da API do DemoQA, que está descrita no Swagger/OpenAPI, para modelar os endpoints no projeto.
+
+Essa documentação define os recursos: /Account/v1/User, /Account/v1/GenerateToken, /Account/v1/Authorized, /BookStore/v1/Books, /Account/v1/User/{userId}....
+
+ “Swagger UI”  disponibilizado para  API de BookStore.
