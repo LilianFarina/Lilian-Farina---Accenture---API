@@ -78,7 +78,7 @@ pip install -r requirements.txt
 behave
 
 📄 BDD — Cenário Principal
-Scenario: Criar usuário, gerar token, reservar 2 livros e verificar detalhes
+cenario: Criar usuário, gerar token, reservar 2 livros e verificar detalhes
     Given que eu gero um username e password aleatórios
     When eu crio o usuário no sistema
     And eu gero um token para o usuário
@@ -129,6 +129,6 @@ helpers → Geração de dados dinâmicos
 
 Isso gera reutilização, fácil manutenção e desacoplamento.
 
-🧑‍💻 Autor
+
 
 Projeto desenvolvido como parte de desafio técnico envolvendo API + BDD + Python + Padrões de Projeto.
